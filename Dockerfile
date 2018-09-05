@@ -12,4 +12,4 @@ CMD touch /var/www/svnconfig/accessfile && \
 	touch /var/www/svnconfig/passwdfile && \
 	chmod 666 /var/www/svnconfig/accessfile && \ 
 	chmod 666 /var/www/svnconfig/passwdfile && \
-	httpd -k restart -D FOREGROUND && tail -f /dev/null
+	httpd -k start -D FOREGROUND && tail -f /dev/null
