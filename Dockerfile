@@ -10,4 +10,4 @@ CMD touch /var/www/svnconfig/accessfile && \
 	touch /var/www/svnconfig/passwdfile && \
 	chmod 666 /var/www/svnconfig/accessfile && \ 
 	chmod 666 /var/www/svnconfig/passwdfile && \
-	sleep 5s && httpd -k start -D FOREGROUND
+	sleep 10s && httpd -k start -D FOREGROUND
